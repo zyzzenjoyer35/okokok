@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(233, 233, 233);
+}
+h1{
+    text-align:center;
+    font-size:50px;
+}
+h6{
+font-size:20px;
+}
+a{
+    color:hotpink;
+}
+a:hover{
+    color:indigo;
+}
+menu, menu li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+menu li {
+	float: left;
+}
+
+menu a:link, menu a:visited {
+	text-decoration: none;
+	display: block;
+	width: 80px;
+	text-align: center;
+	background-color: #ccc;
+	color: #000;
+	border: 2px outset #ccc;
+	padding: 5px;
+}
+
+menu a:hover {
+	border-style: inset;
+	padding: 7px 3px 3px 7px;
+}
